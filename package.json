@@ -1,0 +1,25 @@
+{
+  "name": "hangmanconstructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hM.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanisles/hangmanConstructor.git"
+  },
+  "keywords": [
+    "hangman"
+  ],
+  "author": "Bryan Isles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanisles/hangmanConstructor/issues"
+  },
+  "homepage": "https://github.com/bryanisles/hangmanConstructor#readme",
+  "dependencies": {
+    "inquirer": "^4.0.0"
+  }
+}
