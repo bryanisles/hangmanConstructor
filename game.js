@@ -78,17 +78,14 @@ var startGame = function() {
 			game.usedLetters.push(tempHold.join(""));  // collapse array to a string using join
 			game.letters = letArr.join("");
 			if(game.remainingLetters() === 0 || me.lives === 0) {
-				// mainDisplay();
 				if(me.lives === 0){
 					game.youLose(me);
 					mainDisplay();
 					console.log(" You Lose");
-					
 				} else {
 					game.youWin(me);
 					mainDisplay();
 					if(game.wordList.length === 0) {
-						
 						return console.log(" All words have been guessed successfully");	
 					} else {
 						console.log(" You Win");
