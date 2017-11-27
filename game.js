@@ -26,7 +26,7 @@ console.reset = function () {
 };
 
 // Provides a title block for the game containing Title, players lives, wins, losses, and the word to guess
-var mainDisplay = () => {
+var mainDisplay = function() {
 	console.reset();
 	console.log("\n ██╗███╗   ██╗ ██████╗ ██████╗  ██████╗ ███╗   ██╗██╗██╗████████╗ ██████╗ ");
 	console.log(" ██║████╗  ██║██╔════╝██╔═══██╗██╔════╝ ████╗  ██║██║██║╚══██╔══╝██╔═══██╗");
